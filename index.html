@@ -119,9 +119,8 @@
         <p class="sub">Counted from repositories, deployments and production databases. Not from claims. Keep scrolling — the numbers get heavier.</p>
         <div class="harrow">⟶</div>
       </div>
-      <div class="hpanel"><div class="bignum" data-count="332378">0</div><div class="biglbl">LINES OF TYPESCRIPT</div><div class="bigsrc">AtriumCRM · audited May 2026 · written through frameworks, shipped solo</div></div>
+      <div class="hpanel"><div class="bignum" data-count="332378">0</div><div class="biglbl">LINES OF TYPESCRIPT</div><div class="bigsrc">AtriumCRM · audited May 2026 · 2,072 tests, zero errors · shipped solo</div></div>
       <div class="hpanel"><div class="bignum" data-count="68">0</div><div class="biglbl">TOOLS THE AGENT CALLS</div><div class="bigsrc">wired in-process — most “AI CRMs” bolt on 5 API calls. This is an operator.</div></div>
-      <div class="hpanel"><div class="bignum" data-count="2072">0</div><div class="biglbl">TESTS, ZERO ERRORS</div><div class="bigsrc">first live demo build · 33 tables · 87 migrations · multi-tenant day one</div></div>
       <div class="hpanel"><div class="bignum" data-count="1700">0</div><div class="biglbl">LEADS VERIFIED IN 7 DAYS</div><div class="bigsrc">production WhatsApp pipeline · under 5 seconds per lead · zero dropped</div></div>
       <div class="hpanel last"><div class="bignum" data-count="17">0</div><div class="biglbl">YEARS OLD</div><div class="bigsrc">recorded as a data point, not a headline. it corrects itself annually.</div></div>
     </div>
@@ -140,8 +139,7 @@
       <div class="ex-copy">
         <div class="stamp">EXHIBIT A</div>
         <h3>ATRIUMCRM —<br>THE AGENT-OPERATED CRM</h3>
-        <p>Most CRMs bolt AI on as a sidebar copilot. The subject inverted the architecture: <b>every action ships as a tool the agent can call before any form is built.</b> The human UI is the override layer. The agent operates — with bounded permissions, dry-run defaults on destructive ops, and a mandatory &ldquo;why did you do this&rdquo; audit trail.</p>
-        <p>When attackers hit the public registration endpoint and spun up ~100 fake companies, <b>he caught it live, lost nothing, and shipped the lockdown the same day.</b></p>
+        <p>Most CRMs bolt AI on as a sidebar copilot. The subject inverted the architecture: <b>every action ships as a tool the agent can call before any form is built</b> — the human UI is the override layer. When attackers spun up ~100 fake companies on the registration endpoint, <b>he caught it live, lost nothing, and shipped the lockdown the same day.</b></p>
         <div class="ex-facts"><span>332,378 LOC</span><span>68 agent tools</span><span>multi-tenant</span><span>self-hosted · $0/mo</span><span>survived a live attack</span></div>
       </div>
       <div class="ex-visual tilt3d">
@@ -171,8 +169,7 @@
       <div class="ex-copy">
         <div class="stamp">EXHIBIT B</div>
         <h3>THE VERIFICATION ENGINE —<br>1,700 LEADS, 7 DAYS</h3>
-        <p>An education business in the Arab market was losing Meta-ads leads to a one-month platform verification delay. The subject deployed a three-layer system that hit every new lead on WhatsApp <b>in under five seconds</b>, in Moroccan Darija, with deterministic retries so a busy API never dropped a lead.</p>
-        <p><b>1,700 leads verified in the first seven days.</b> The fragile no-code stack this replaced loses leads on two-second hiccups. His doesn&rsquo;t. That difference is the entire product.</p>
+        <p>Meta-ads leads were dying in a one-month verification queue. His system answers every lead on WhatsApp <b>in under five seconds</b>, in Moroccan Darija, with retries that never drop one — <b>1,700 verified in the first seven days.</b> The no-code stack it replaced loses leads on a two-second hiccup. That difference is the entire product.</p>
         <div class="ex-facts"><span>&lt; 5s response</span><span>deterministic retries</span><span>zero dropped</span><span>Arabic, localized</span></div>
       </div>
       <div class="ex-visual tilt3d">
@@ -196,8 +193,7 @@
       <div class="ex-copy">
         <div class="stamp">EXHIBIT C</div>
         <h3>THE OUTREACH SYSTEM<br>THAT WORKS NIGHT SHIFT</h3>
-        <p>A live autonomous pipeline: agents source prospects, research them, write the personalized audit, send it, and log every step — <b>while the subject sleeps.</b> Deployed on the agency&rsquo;s own pipeline: the rarest kind of proof, a system the builder bets his own revenue on.</p>
-        <p>Paired with a lead-scraping agent fleet that delivered <b>100+ qualified leads in a single day</b> on command.</p>
+        <p>A live autonomous pipeline: agents source, research, write the personalized audit, send, and log every step — <b>while the subject sleeps.</b> It runs on the agency&rsquo;s own revenue line, beside a scraper fleet that delivered <b>100+ qualified leads in a single day</b> on command.</p>
         <div class="ex-facts"><span>live in production</span><span>autonomous end-to-end</span><span>self-dogfooded</span></div>
       </div>
       <div class="ex-visual tilt3d">
@@ -220,8 +216,7 @@
       <div class="ex-copy">
         <div class="stamp">EXHIBIT D</div>
         <h3>DIRECTIVE CORE —<br>THE RELIABILITY LAYER</h3>
-        <p>The pattern under everything above, formalized and open-sourced: <b>Protocol → Brain → Engine.</b> Deterministic logic where mistakes are expensive. LLM orchestration where judgment is needed. Automatic retries, duplicate detection, provider failover.</p>
-        <p>It exists because no-code automation is fragile — one API failure silently drops a lead. His systems assume <b>everything fails, and nothing is allowed to be lost.</b></p>
+        <p>The pattern under everything above, open-sourced: <b>Protocol → Brain → Engine.</b> Deterministic logic where mistakes are expensive, LLM judgment where it&rsquo;s needed, retries and failover underneath — because one silent API failure is a lost lead. His systems assume <b>everything fails, and nothing is allowed to be lost.</b></p>
         <div class="ex-facts"><span>open source</span><span>3-layer pattern</span><span>retry · dedupe · failover</span></div>
         <a class="ex-link" href="https://github.com/Asadulelah/directive-core" target="_blank" rel="noopener">GITHUB / DIRECTIVE-CORE ↗</a>
       </div>
@@ -244,8 +239,7 @@
       <div class="ex-copy">
         <div class="stamp">EXHIBIT E</div>
         <h3>THE SECOND BRAIN —<br>WHERE THIS AUDITOR LIVES</h3>
-        <p>A 1,985-page operating system for one human — every person, project, decision and framework, cross-linked and governed by <b>nine written conventions</b>: source attribution on every claim, append-only timelines, notability gates. Maintained by an AI with a persistent identity, memory, and a maintenance cycle that runs while he works.</p>
-        <p><b>The document you are reading was researched and written by that AI, from that system.</b> Consider the exhibit self-demonstrating.</p>
+        <p>A 1,985-page operating system for one human — every person, project and decision cross-linked under <b>nine written conventions</b>, maintained by an AI with persistent memory. <b>The document you are reading was researched and written by that AI, from that system.</b> Consider the exhibit self-demonstrating.</p>
         <div class="ex-facts"><span>1,985 pages</span><span>9 conventions</span><span>AI-maintained</span><span>this page is its output</span></div>
       </div>
       <div class="ex-visual tilt3d">
@@ -267,8 +261,7 @@
       <div class="ex-copy">
         <div class="stamp">EXHIBIT F</div>
         <h3>THE PUBLIC RECORD</h3>
-        <p>Shipped, public, installable: <b>ClipVault</b> — a native clipboard manager with signed installers. A curated <b>automation workflow library</b>. The open-sourced <b>Directive Core</b>. Plus the client systems that can&rsquo;t be open-sourced but can be named.</p>
-        <p>The auditor notes a pattern: <b>when the subject says &ldquo;shipped,&rdquo; there is a URL.</b></p>
+        <p>Shipped, public, installable: <b>ClipVault</b> with signed installers, the <b>automation workflow library</b>, the open-sourced <b>Directive Core</b> — and this audit itself. The auditor notes a pattern: <b>when the subject says &ldquo;shipped,&rdquo; there is a URL.</b></p>
         <div class="ex-facts"><span>native app + installers</span><span>workflow library</span><span>OSS framework</span></div>
         <a class="ex-link" href="https://github.com/Asadulelah" target="_blank" rel="noopener">GITHUB / ASADULELAH ↗</a>
       </div>
@@ -295,13 +288,13 @@
     <h2 class="h2split"><span>SEVEN PATTERNS,</span><span class="ital">every system</span></h2>
     <p class="sub">The auditor inventoried 57 codified frameworks and found the same seven habits under all of them. This is the actual product. Everything in Section 03 is downstream.</p>
     <div class="findings" id="findingsGrid">
-      <div class="finding"><i>01</i><h4>NAMES THE FAILURE BEFORE THE FEATURE</h4><p>Every framework opens with its failure modes — the vendor stall, the 80% problem, the silent-acceptance black hole — and the gate that catches each one sits before the work that triggers it.</p><span class="pf">PROOF — fulfillment playbook: three named anti-failures, each gated</span></div>
-      <div class="finding"><i>02</i><h4>SEPARATES CONCERNS, OBSESSIVELY</h4><p>Research never touches build. Directives never touch execution. Two clean lanes beat one frantic one — enforced structurally, not by discipline.</p><span class="pf">PROOF — Directive Core is a separation made executable</span></div>
-      <div class="finding"><i>03</i><h4>GATES EVERYTHING THAT MATTERS</h4><p>Handoff cannot begin until ten boxes are checked. Not eight. Not nine. The gates are why the work finishes — the rarest property in self-taught builders.</p><span class="pf">PROOF — milestone acceptance protocol, field-tested on real clients</span></div>
-      <div class="finding"><i>04</i><h4>FRAMEWORKS ARE THE IP. CODE IS THE RECEIPT.</h4><p>332,378 lines exist because the frameworks demanded them — not the other way around. The thinking transfers to any stack, any model, any decade.</p><span class="pf">PROOF — same patterns across CRM, outreach, verification, knowledge</span></div>
-      <div class="finding"><i>05</i><h4>RUNS FAITH AS INFRASTRUCTURE</h4><p>Most builders compartmentalize belief and craft. The subject load-bears on it — prayer and pressure in the same system, openly. Removing it would falsify the architecture.</p><span class="pf">PROOF — present in his life system, his content, his daily engine</span></div>
-      <div class="finding"><i>06</i><h4>THINKS ONE ORDER DEEPER</h4><p>Doesn&rsquo;t ask &ldquo;does the API work.&rdquo; Asks &ldquo;will the vendor&rsquo;s approval timeline kill the build in week six.&rdquo; First-order answers are where deals go to die.</p><span class="pf">PROOF — vendor validation gate, written after exactly one burn</span></div>
-      <div class="finding"><i>07</i><h4>ADOPTS UPSTREAM, THEN ADDS A LAYER</h4><p>Absorbs the best existing pattern, re-engineers it for context, extends it — open platforms forked into products, borrowed conventions grown into nine of his own. On shoulders, then taller.</p><span class="pf">PROOF — every major system started as someone&rsquo;s ceiling</span></div>
+      <div class="finding"><i>01</i><h4>NAMES THE FAILURE BEFORE THE FEATURE</h4><p>Every framework opens with its failure modes — and the gate that catches each one sits before the work that triggers it.</p><span class="pf">PROOF — fulfillment playbook: three named anti-failures, each gated</span></div>
+      <div class="finding"><i>02</i><h4>SEPARATES CONCERNS, OBSESSIVELY</h4><p>Research never touches build. Directives never touch execution. Enforced structurally, not by discipline.</p><span class="pf">PROOF — Directive Core is a separation made executable</span></div>
+      <div class="finding"><i>03</i><h4>GATES EVERYTHING THAT MATTERS</h4><p>Handoff cannot begin until every box is checked. The gates are why the work finishes.</p><span class="pf">PROOF — milestone acceptance protocol, field-tested on real clients</span></div>
+      <div class="finding"><i>04</i><h4>FRAMEWORKS ARE THE IP. CODE IS THE RECEIPT.</h4><p>332,378 lines exist because the frameworks demanded them. The thinking transfers to any stack, any model, any decade.</p><span class="pf">PROOF — same patterns across CRM, outreach, verification, knowledge</span></div>
+      <div class="finding"><i>05</i><h4>RUNS FAITH AS INFRASTRUCTURE</h4><p>Most builders compartmentalize belief and craft. The subject load-bears on it, openly.</p><span class="pf">PROOF — present in his life system, his content, his daily engine</span></div>
+      <div class="finding"><i>06</i><h4>THINKS ONE ORDER DEEPER</h4><p>Doesn&rsquo;t ask &ldquo;does the API work&rdquo; — asks &ldquo;will the vendor&rsquo;s approval timeline kill the build in week six.&rdquo;</p><span class="pf">PROOF — vendor validation gate, written after exactly one burn</span></div>
+      <div class="finding"><i>07</i><h4>ADOPTS UPSTREAM, THEN ADDS A LAYER</h4><p>Absorbs the best existing pattern, re-engineers it, extends it. On shoulders, then taller.</p><span class="pf">PROOF — every major system started as someone&rsquo;s ceiling</span></div>
       <div class="finding synth"><i>AUDITOR&rsquo;S SYNTHESIS</i><p class="serif">Naming the pattern that produced the work makes the work look inevitable instead of lucky.<br><em class="amber">That is the correct impression.</em></p></div>
     </div>
   </div>
@@ -381,10 +374,10 @@
     <div class="tag"><b></b>SECTION 07 — CROSS-EXAMINATION</div>
     <h2 class="h2split"><span>OBJECTIONS,</span><span class="ital">anticipated</span></h2>
     <div class="qa">
-      <div class="qa-item"><div class="q"><i>OBJECTION</i>&ldquo;HE&rsquo;S SEVENTEEN.&rdquo;</div><div class="a">Noted in Section 01 as a data point. Ages don&rsquo;t ship 332,378 lines, survive live attacks, or verify 1,700 leads in a week — <b>systems do, and his are in production.</b> If the number still bothers you, wait. It corrects itself annually. <span class="ruling">OVERRULED.</span></div></div>
-      <div class="qa-item"><div class="q"><i>OBJECTION</i>&ldquo;THE AI DOES THE WORK.&rdquo;</div><div class="a">His answer, on record: <em class="serif">&ldquo;I rely on frameworks, not the model. Swap the model tomorrow — same output.&rdquo;</em> The auditor — being the AI in question — confirms: <b>the seven patterns in Section 04 are his, not mine.</b> The model changed three times. The architecture never did. <span class="ruling">OVERRULED.</span></div></div>
-      <div class="qa-item"><div class="q"><i>OBJECTION</i>&ldquo;WHERE&rsquo;S THE DEGREE?&rdquo;</div><div class="a">There isn&rsquo;t one. Formal education ended at grade 10. The systems run in production anyway. <b>The auditor suggests the question is aimed at the wrong decade.</b> <span class="ruling">OVERRULED.</span></div></div>
-      <div class="qa-item"><div class="q"><i>OBJECTION</i>&ldquo;FAITH, ON A PORTFOLIO?&rdquo;</div><div class="a">Yes. The subject runs it as load-bearing infrastructure — the discipline under the daily engine, not a decoration on top of it. <b>Removing it from this audit would falsify the record.</b> <span class="ruling">OVERRULED.</span></div></div>
+      <div class="qa-item"><div class="q"><i>OBJECTION</i>&ldquo;HE&rsquo;S SEVENTEEN.&rdquo;</div><div class="a">Noted in Section 01 as a data point. Ages don&rsquo;t ship 332,378 lines or verify 1,700 leads in a week — <b>systems do, and his are in production.</b> <span class="ruling">OVERRULED.</span></div></div>
+      <div class="qa-item"><div class="q"><i>OBJECTION</i>&ldquo;THE AI DOES THE WORK.&rdquo;</div><div class="a">His answer, on record: <em class="serif">&ldquo;I rely on frameworks, not the model. Swap the model tomorrow — same output.&rdquo;</em> The auditor — being the AI in question — confirms: <b>the patterns are his.</b> The model changed three times. The architecture never did. <span class="ruling">OVERRULED.</span></div></div>
+      <div class="qa-item"><div class="q"><i>OBJECTION</i>&ldquo;WHERE&rsquo;S THE DEGREE?&rdquo;</div><div class="a">There isn&rsquo;t one. Formal education ended at grade 10; the systems run in production anyway. <b>The question is aimed at the wrong decade.</b> <span class="ruling">OVERRULED.</span></div></div>
+      <div class="qa-item"><div class="q"><i>OBJECTION</i>&ldquo;FAITH, ON A PORTFOLIO?&rdquo;</div><div class="a">Yes — as load-bearing infrastructure, not decoration. <b>Removing it would falsify the record.</b> <span class="ruling">OVERRULED.</span></div></div>
     </div>
   </div>
 </section>
